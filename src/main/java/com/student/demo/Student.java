@@ -8,7 +8,7 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 public class Student extends PanacheEntity {
 
  public String studentName;
- public int year;
+ public Long year;
  public String department;
 
 }
