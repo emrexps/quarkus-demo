@@ -25,12 +25,18 @@ public class StudentResource {
 
     }
 
+/*
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Student> listAll() {
         return   Student.findAll().list();
     }
-
+*/
+    @GET
+    @Path("/test")
+    public String listAll() {
+        return   "hello";
+    }
    
 }
 
