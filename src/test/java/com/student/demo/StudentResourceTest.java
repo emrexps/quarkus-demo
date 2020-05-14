@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class StudentResourceTest {
 
-   /* @Test
+    @Test
     public void hello() {
         given()
           .when().get("/student/test")
@@ -20,7 +20,7 @@ public class StudentResourceTest {
              .body(is("hello"));
     }
 
-*/
+
     @Test
     public void helloTest() {
       String content="hello";
